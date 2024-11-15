@@ -1,0 +1,28 @@
+body {
+  height: 100vh;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.group {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.item {
+  width: 10vw;
+  height: 85vh;
+  background-position: top;
+  background-size: 100vh;
+  margin: 1vw;
+  border-radius: 3vh;
+  display: inline-block;
+  cursor: pointer;
+}
